@@ -1,0 +1,46 @@
+:root {
+  color-scheme: light;
+  --admin-bg: #f3f1eb;
+  --admin-panel: rgba(255, 255, 255, 0.86);
+  --admin-panel-strong: #ffffff;
+  --admin-text: #1f2933;
+  --admin-subtle: #6b7280;
+  --admin-primary: #0f766e;
+  --admin-primary-strong: #115e59;
+  --admin-accent: #d97706;
+  --admin-border: rgba(31, 41, 55, 0.1);
+  --admin-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
+  font-family: 'Segoe UI Variable', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  color: var(--admin-text);
+  background:
+    radial-gradient(circle at top left, rgba(15, 118, 110, 0.14), transparent 34%),
+    radial-gradient(circle at right top, rgba(217, 119, 6, 0.18), transparent 28%),
+    linear-gradient(180deg, #f9f7f1 0%, #edf1ef 100%);
+}
+
+a {
+  color: inherit;
+}
+
+.glass-card {
+  background: var(--admin-panel);
+  backdrop-filter: blur(18px);
+  border: 1px solid var(--admin-border);
+  box-shadow: var(--admin-shadow);
+  border-radius: 20px;
+}

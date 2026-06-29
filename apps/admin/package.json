@@ -1,0 +1,26 @@
+{
+  "name": "@gospace/admin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "axios": "^1.18.1",
+    "element-plus": "^2.14.2",
+    "pinia": "^2.3.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "typescript": "^5.6.2",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.10"
+  }
+}

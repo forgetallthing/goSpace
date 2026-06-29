@@ -1,0 +1,17 @@
+{
+  "name": "gospace",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:server": "npm --workspace apps/server run start:dev",
+    "dev:mobile": "npm --workspace apps/mobile run dev:mp-weixin",
+    "dev:admin": "npm --workspace apps/admin run dev",
+    "build:server": "npm --workspace apps/server run build",
+    "build:mobile": "npm --workspace apps/mobile run build:mp-weixin",
+    "build:admin": "npm --workspace apps/admin run build"
+  }
+}

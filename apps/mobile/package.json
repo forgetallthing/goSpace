@@ -1,0 +1,33 @@
+{
+  "name": "@gospace/mobile",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:h5": "cross-env UNI_PLATFORM=h5 vite",
+    "dev:mp-weixin": "cross-env UNI_PLATFORM=mp-weixin vite",
+    "build:h5": "cross-env UNI_PLATFORM=h5 vite build",
+    "build:mp-weixin": "cross-env UNI_PLATFORM=mp-weixin vite build"
+  },
+  "dependencies": {
+    "@dcloudio/vite-plugin-uni": "3.0.0-alpha-3000020210521001",
+    "@dcloudio/uni-cli-shared": "2.0.2-5000720260410001",
+    "@dcloudio/uni-cli-i18n": "2.0.2-5000720260410001",
+    "@dcloudio/uni-components": "3.0.0-alpha-3000020210521001",
+    "@dcloudio/uni-shared": "3.0.0-alpha-3000020210521001",
+    "@vue/compiler-sfc": "^3.5.39",
+    "@vue/server-renderer": "^3.5.39",
+    "@vue/shared": "^3.5.39",
+    "cross-env": "^7.0.3",
+    "pinia": "^2.2.2",
+    "vue": "^3.5.10"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.4.24",
+    "@types/node": "^22.5.4",
+    "@vitejs/plugin-vue": "1.10.2",
+    "sass": "^1.77.8",
+    "typescript": "^5.6.2",
+    "vite": "2.9.18",
+    "vue-tsc": "^2.1.6"
+  }
+}
